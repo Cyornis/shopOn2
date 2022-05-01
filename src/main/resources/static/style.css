@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Bebas+Neue&family=Ms+Madi&family=Rowdies&display=swap');
+
+* {
+    font-family: 'Akshar', sans-serif;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+
+section {
+    display: block;
+    height: auto;
+    width: 100%;
+
+}
+
+.carousel-item,
+#carouselMain {
+    height: 100vh;
+
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('./images/slider2-alt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('./images/slider1-alt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+
+
+.carousel-title {
+    font-family: 'Ms Madi', cursive;
+}
+
+.masking-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.read-more2 {
+
+    position: absolute;
+    left: 50%;
+    top: 90vh;
+}
+
+
+.nav-text {
+    color: white;
+}
+
+.nav-text:hover {
+    color: #08fdd8;
+
+}
+
+.updates,
+.about-us,
+.events {
+    box-shadow: 0px 5px 40px 15px #131518;
+
+}
+
+.event-article,
+.updates-article {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #131518;
+
+
+}
+
+.navigation-bar {
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #131518;
+}
+
